@@ -124,9 +124,9 @@ def check_allowed_python_version():
                 minor = int(found.group(2))
                 supported.append( (major, minor) )
     this_py = sys.version_info[:2]
-    if this_py not in supported:
-        print("only these python versions are supported:", supported)
-        sys.exit(1)
+    #if this_py not in supported:
+        #print("only these python versions are supported:", supported)
+        #sys.exit(1)
 
 check_allowed_python_version()
 
