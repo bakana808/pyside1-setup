@@ -26,7 +26,7 @@ OpenSSL: You can specify the location of OpenSSL DLLs with option --opnessl=</pa
     You can download OpenSSL for windows here: http://slproweb.com/products/Win32OpenSSL.html
 """
 
-__version__ = "1.2.4"
+__version__ = "1.2.2"
 
 submodules = {
     '1.2.4': [
